@@ -1,0 +1,51 @@
+    .about {
+        font-size: 20px;
+        text-align: center;
+        color: grey; 
+        background-color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 10px;
+
+    } 
+
+    .mul {
+        font-size: 15px;
+        color: grey;
+        background-color: white;
+        text-align: left;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 0px;
+    }
+
+    .con {
+        font-size: 15px;
+        text-align: left;
+        color: grey;
+        background-color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    } 
+
+    .fac {
+        font-size: 15px;
+        text-align: left;
+        color: grey;
+        background-color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    } 
+
+    .fa{
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: left;
+        color: grey;
+        background-color: white;
+    } 
+
+    .na {
+        font-size: 15px;
+        text-align: left;
+        background-color: white;
+        font-family: 'Times New Roman', Times, serif;
+        color: grey;
+
+    }

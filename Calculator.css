@@ -1,0 +1,123 @@
+.cal {
+    font-size: 20px;
+    text-align: center;
+    color: white; 
+    background-color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+
+}
+
+body{
+    background-color: palevioletred
+} 
+
+table{
+    margin: auto;
+    background-color: grey;
+    width: 295px;
+    height: 325px;
+    text-align: center;
+    border-radius: 4px;
+} 
+
+#calculator{
+    position: absolute;
+    max-width: 60%;
+    left: 58%;
+    top: 10%;
+}
+
+input{
+    outline: 0;
+    position: relative;
+    left: 5px;
+    border: 0;
+    color: black;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgba(0,0,0,0,2);
+} 
+
+input:hover{
+    border: 0 solid #000;
+    color:#495069;
+    background-color: #8F5FD4;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px #644294;
+} 
+
+input:active{
+    top:4px;
+    border: 0 solid #000;
+    color: #495069;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: none;
+} 
+
+#answer{
+    width:270;
+    font-size:26px;
+    text-align: center;
+    background-color: #F1FAEB;
+    float: left;
+} 
+
+#answer:hover{
+    width: 270px;
+    font-size: 26px;
+    text-align: center;
+    background-color: #F1FAEB;
+    box-shadow: 0 4px rgba(0,0,0,0,2);
+}
+
+#answer:active{
+    top:5px;
+    width: 270px;
+    font-size: 26px;
+    text-align: center;
+    background-color: #F1FAEB;
+    box-shadow: 0 4px rgba(0,0,0,0,2);
+}
+
+.operator{
+    background-color: #E7F56B;
+    position: relative;
+} 
+
+.operator:hover{
+background-color: #E7F56B;
+box-shadow: 0 4px #B7C259;
+} 
+
+#clear{
+    float: left;
+    position: relative;
+    display: block;
+    background-color: #ff9fa8;
+    margin-bottom: 15px;
+} 
+
+#clear:active{
+    float: left;
+    top:4px;
+    display: block;
+    background-color: #F297A0;
+    margin-bottom: 15px;
+    box-shadow: none;
+}

@@ -1,0 +1,273 @@
+  .hed {
+      font-size: 25px;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      color: white;
+      background-color: grey
+  } 
+
+  body{
+    background-color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  } 
+
+  .active {
+    background-color: #04AA6D;
+  } 
+
+.Np {
+  float: left;
+}
+
+.Mn{
+  text-align: center;
+  color: #4287f5;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.th{
+  text-align: left;
+  font-size: 20px;
+} 
+
+.hop{
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.lg{
+  float: left;
+  padding: 100px 100px;
+  background-color: powderblue;
+  height: 370px;
+  width: 800px;
+}
+
+.pn{
+  float: right;
+  height: 300px;
+  width: 200px;
+}
+
+.sub{
+  float:inline-start;
+}
+
+.ac{
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#4287f5; 
+}
+
+.za{
+  font-size: 15px;
+  font-style: normal;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: gray;
+} 
+
+.boo{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  height: 200px;
+  width: 500px;
+  background-color: powderblue;
+  color:#4287f5;
+  text-align: center;
+  float: right;
+}
+
+.hp{
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  color: gray;
+} 
+
+.non{
+  float: left;
+} 
+
+.mad{
+  position: relative;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: gray;
+}
+
+.text{
+  position: absolute;
+  bottom: 80px;
+  left: 20px;
+  background-color: white;
+  color:#cdc8b1;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 200px;
+} 
+
+.ip{
+  font-size: 16px;
+} 
+
+.button {
+  background-color:#283747;
+  height: 50px;
+  width: 200px;
+} 
+
+.run{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.men{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  background-color: aqua;
+}
+
+.mov{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+} 
+
+.ma {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  background-color: aquamarine;
+} 
+
+.mb{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  background-color: aqua;
+} 
+
+.nb{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  background-color: aquamarine;
+} 
+
+.you{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  background-color: aqua;
+  width: 300px; 
+} 
+
+.wom{
+  float: left;
+  background-color: #F2F3F4;
+  text-align: center;
+  height: 750px;
+  width: 99.5%;
+} 
+
+.women{
+  left: 120px;
+  float: none;
+} 
+
+.tool{
+  float: left;
+  background-color: #4287f5;
+  padding: 0px 600px;
+} 
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+} 
+
+.tool{
+display: flex;
+flex-wrap: wrap;
+}

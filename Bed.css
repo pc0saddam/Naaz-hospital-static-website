@@ -1,0 +1,112 @@
+    .run {
+        font-size: 25px;
+        text-align: center;
+        color: greenyellow; 
+        background-color: #3333;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        padding-top: 20px;
+    } 
+
+    .rod {
+        font-size: 25px;
+        text-align: center;
+        color: white;
+        background-color: palegreen;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+        padding-top: 5px;
+    } 
+
+    .bh {
+        font-size: 25px;
+        text-align: left;
+        color: white;
+        background-color: palevioletred;
+        font-size: 25px;
+        padding-top: 5px;
+    }
+
+    .bed {
+        font-size: 16px;
+        text-align: center;
+        color: black;
+        background-color: palevioletred;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .Pr {
+        font-size: 25px;
+        text-align: left;
+        color: white;
+        background-color: greenyellow;
+    } 
+
+    .Pv {
+        font-size: 16px;
+        text-align: left;
+        color: black;
+        background-color: greenyellow;
+    }
+
+
+    .ic {
+        font-size: 25px;
+        text-align: left;
+        color: white;
+        background-color:paleturquoise;
+    } 
+
+    .icc {
+        font-size: 16px;
+        text-align: left;
+        color: black;
+        background-color:paleturquoise;
+    } 
+
+    .am {
+        font-size: 25px;
+        text-align: center;
+        color: white;
+        background-color: red;
+        float: calc();
+    } 
+
+    .ro {
+        text-align: left;
+        font-size: 25px;
+        color: white;
+        background-color: white;
+        border-top: 5px;
+        float: calc();
+    } 
+
+    .ab {
+        text-align: left;
+        font-size: 16px;
+        color:black;
+        background-color: red;
+    }  
+
+    .dm {
+        text-align: left;
+        font-size: 13px;
+        color:indigo;
+        background-color: lawngreen;
+        padding-top: 10px;
+    } 
+
+    .ni {
+        text-align: center;
+        font-size: 35px;
+        color: white;
+        background-color: greenyellow;
+        padding-top: 10px;
+    } 
+
+    .nl {
+        text-align: center;
+        font-size: 25px;
+        color: gray;
+        background-color: greenyellow;
+        padding-top: 10px;
+    }
